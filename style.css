@@ -15,6 +15,7 @@ nav ul {
     padding-top: 30px;
 }
 
+
 nav ul li {
     display: inline;
     padding: 10px;
@@ -26,7 +27,7 @@ nav ul li {
     height: auto;
     padding-top: 10px;
 }
-
+/*
 .main {
 
     background-color: #0b1b32;
@@ -43,6 +44,19 @@ heading h3, heading p {
     width: 50%;
 }
 
-.main projects {
+#projects {
     background-color: #4da69a;
 }
+
+contact h3 {
+    text-align: center;
+}
+
+contact p {
+    text-align: center;
+}
+
+contact {
+    background-color: #0b1b32;
+}
+*/
