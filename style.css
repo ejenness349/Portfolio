@@ -27,6 +27,13 @@ nav ul li {
     height: auto;
     padding-top: 10px;
 }
+
+.collage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 /*
 .main {
 
