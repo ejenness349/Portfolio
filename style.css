@@ -1,5 +1,4 @@
 
-
 nav ul {
     list-style-type: none;
     float: right;
@@ -34,6 +33,18 @@ nav ul li {
     margin-right: auto;
     width: 50%;
 }
+
+.finished, .work-in-progress, .future-projects {
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+contact {
+    text-align: center;
+}
+
 /*
 .main {
 
