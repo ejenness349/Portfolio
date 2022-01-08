@@ -1,3 +1,6 @@
+* {
+    font: questrial, sans-serif;
+}
 
 nav ul {
     list-style-type: none;
@@ -27,11 +30,64 @@ nav ul li {
     padding-top: 10px;
 }
 
+.main {
+    background-color: rgb(11,27,50);
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+td {
+    text-align: center;
+}
+
+heading h1 {
+    text-align: center;
+    line-height: 1.25em;
+    font-size: 72px;
+    color: rgb(77,166,154);
+}
+
+heading h3 {
+    text-align: center;
+    line-height: 1.67em;
+    font-size: 20px;
+    color: white;
+}
+
+heading p {
+    text-align: center;
+    line-height: 1.875em;
+    font-size: 15px;
+    color: white;
+    max-width: 60%;
+    min-width: 30%;
+    margin:0 auto;
+}
+
+.heading-projects {
+    color: white;
+    text-align: center;
+    margin:0 auto;
+}
+
+.heading-projects h3 {
+    text-align: center;
+    line-height: 1.35em;
+    font-size: 40px;
+}
+.heading-projects p {
+    max-width: 60%;
+    min-width: 30%;
+    line-height: 1.875em;
+    font-size: 15px;
+}
+
 .collage {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding-top: 50px;
 }
 
 .finished, .work-in-progress, .future-projects {
@@ -45,7 +101,110 @@ contact {
     text-align: center;
 }
 
+table {
+    margin-top: 100px;
+    background-color: rgb(77,166,154);
+	width: 100%;
+
+}
+
+table p {
+    max-width: 70%;
+    min-width: 30%;
+    margin:0 auto;
+}
+
+table td {
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+table .heading-projects {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table img {
+    width: 480px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+table .main-info {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.info-element {
+    width: 480px;
+    height: 500px;
+    background-color: rgb(11,27,50);
+}
+
+table .main-info h4 {
+    color: rgb(77,166,154);
+    line-height: 1.41em;
+    font-size: 22px;
+}
+
+table .main-info p {
+    color: white;
+    line-height: 1.875em;
+    font-size: 15px;
+}
+
+kanban .title {
+    color: rgb(77,166,154);
+    margin-top: 100px;
+}
+
+kanban p {
+    color: white;
+}
+
+.main contact {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+contact {
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+    background: rgb(11,27,50);
+    line-height: 200%;
+    height: 100%;
+    color: white;
+}
 /*
+.main-info {
+    background-color:rgb(10,24,45);
+    width: 480px;
+    height: 500px;
+
+    margin: 20px;
+}
+
+.main-info h4 {
+    color: rgb(77,166,154);
+    text-align: center;
+    line-height: 1.41em;
+    font-size: 22px;
+}
+
+.main-info p {
+    color: white;
+    text-align: center;
+    line-height: 1.875em;
+    font-size: 15px;
+}
+
 .main {
 
     background-color: #0b1b32;
