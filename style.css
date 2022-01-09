@@ -36,10 +36,6 @@ nav ul li {
     margin: 0;
 }
 
-td {
-    text-align: center;
-}
-
 heading h1 {
     text-align: center;
     line-height: 1.25em;
@@ -64,24 +60,6 @@ heading p {
     margin:0 auto;
 }
 
-.heading-projects {
-    color: white;
-    text-align: center;
-    margin:0 auto;
-}
-
-.heading-projects h3 {
-    text-align: center;
-    line-height: 1.35em;
-    font-size: 40px;
-}
-.heading-projects p {
-    max-width: 60%;
-    min-width: 30%;
-    line-height: 1.875em;
-    font-size: 15px;
-}
-
 .collage {
     display: block;
     margin-left: auto;
@@ -101,47 +79,69 @@ contact {
     text-align: center;
 }
 
+/* TABLE of PROJECTS */
+
 table {
     margin-top: 100px;
     background-color: rgb(77,166,154);
 	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+}
 
+table img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    
 }
 
 table p {
     max-width: 70%;
     min-width: 30%;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-table td {
+tr {
+    height: 500px;
+}
+
+td {
     text-align: center;
     vertical-align: middle;
     padding-bottom: 40px;
     padding-top: 40px;
-}
-
-table .heading-projects {
-    text-align: center;
-    vertical-align: middle;
-}
-
-table img {
-    width: 480px;
+    width: 500px;
     height: 500px;
-    object-fit: cover;
-    object-position: 50% 50%;
-}
-
-table .main-info {
-    text-align: center;
-    vertical-align: middle;
+    align-items: center;
+    border: 2px solid black;
+    
 }
 
 .info-element {
-    width: 480px;
-    height: 500px;
     background-color: rgb(11,27,50);
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 125px 0;
+}
+
+.heading-projects {
+    color: white;
+}
+
+.heading-projects h3 {
+    line-height: 1.35em;
+    font-size: 40px;
+}
+
+.heading-projects p {
+    line-height: 1.875em;
+    font-size: 15px;
 }
 
 table .main-info h4 {
@@ -155,6 +155,18 @@ table .main-info p {
     line-height: 1.875em;
     font-size: 15px;
 }
+
+/*
+
+
+
+
+
+
+
+
+*/
+/* KANBAN */
 
 kanban .title {
     color: rgb(77,166,154);
